@@ -3,7 +3,7 @@
 
 # 進捗
 
-- [ ] chapter03
+- [x] chapter03
 - [ ] chapter04
 - [ ] chapter05
 - [ ] chapter06
