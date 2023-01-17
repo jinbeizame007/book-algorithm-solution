@@ -1,14 +1,8 @@
-# code 4.2
+# code 4.1
 
-function func(N::Int64)::Int64
-    println("func($N)を呼び出しました")
-
+function func(N::Int64)
     N == 0 && return 0
-
-    result = N + func(N - 1)
-    println("$(N)までの和=$result")
-    
-    return result
+    return N + func(N - 1)
 end
 
 println(func(5))
